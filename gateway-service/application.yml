@@ -1,0 +1,17 @@
+server:
+  port: 8005
+eureka:
+  instance:
+    statusPageUrlPath: /info
+    healthCheckUrlPath: /health
+zuul:
+  routes:
+    profile-service:
+      path: /profile/**
+      stripPrefix: false
+    blog-service:
+      path: /blog/**
+      stripPrefix: false
+    uaa-service:
+      path: /uaa/**
+      stripPrefix: false
