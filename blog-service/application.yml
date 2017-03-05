@@ -1,0 +1,3 @@
+server:
+  port: 8003
+  context-path: /blog
