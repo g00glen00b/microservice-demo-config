@@ -7,11 +7,8 @@ eureka:
 zuul:
   routes:
     profile-service:
-      path: /profile/**
-      stripPrefix: true
+      prefix: /profile
     blog-service:
-      path: /blog/**
-      stripPrefix: true
+      prefix: /blog
     uaa-service:
-      path: /uaa/**
-      stripPrefix: true
+      prefix: /uaa
