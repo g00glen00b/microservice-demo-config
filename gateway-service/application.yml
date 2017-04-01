@@ -10,5 +10,6 @@ zuul:
       prefix: /profile
     blog-service:
       prefix: /blog
+      stripPrefix: true
     uaa-service:
       prefix: /uaa
