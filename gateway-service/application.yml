@@ -4,3 +4,7 @@ eureka:
   instance:
     statusPageUrlPath: /info
     healthCheckUrlPath: /health
+zuul:
+  routes:
+    uaa-service:
+      sensitiveHeaders:
