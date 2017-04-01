@@ -8,10 +8,10 @@ zuul:
   routes:
     profile-service:
       path: /profile/**
-      stripPrefix: false
+      stripPrefix: true
     blog-service:
       path: /blog/**
-      stripPrefix: false
+      stripPrefix: true
     uaa-service:
       path: /uaa/**
-      stripPrefix: false
+      stripPrefix: true
