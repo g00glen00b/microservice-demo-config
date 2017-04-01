@@ -4,12 +4,3 @@ eureka:
   instance:
     statusPageUrlPath: /info
     healthCheckUrlPath: /health
-zuul:
-  routes:
-    profile-service:
-      prefix: /profile
-    blog-service:
-      prefix: /blog
-      stripPrefix: true
-    uaa-service:
-      prefix: /uaa

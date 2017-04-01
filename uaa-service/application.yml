@@ -6,5 +6,4 @@ security:
     secret: bkr5aI5AAtS5kbwN
 server:
   port: 8002
-  context-path: /uaa
 
