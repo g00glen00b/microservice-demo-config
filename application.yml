@@ -17,7 +17,7 @@ eureka:
       defaultZone: http://localhost:8001/eureka/
 security:
   token:
-    endpoint: http://uaa-service/uaa/api/user
+    endpoint: http://uaa-service/api/user
     header: X-Token
 management:
   context-path: /
