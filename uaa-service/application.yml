@@ -2,7 +2,7 @@ security:
   password:
     strength: 10
   token:
-    max-age-seconds: 86400
+    max-age-seconds: 604800 # 1 week
     secret: bkr5aI5AAtS5kbwN
 server:
   port: 8002
