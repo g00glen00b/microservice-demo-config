@@ -1,0 +1,8 @@
+server:
+  port: ${APP_PORT:8001}
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
