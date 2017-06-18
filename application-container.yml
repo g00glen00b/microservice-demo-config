@@ -1,23 +1,4 @@
-spring:
-  jpa:
-    generate-ddl: false
-    hibernate:
-      ddl-auto: none
-  jackson:
-    serialization:
-      write-dates-as-timestamps: false
-      indent_output: true
 eureka:
-  instance:
-    statusPageUrlPath: \${server.context-path}/info
-    healthCheckUrlPath: \${server.context-path}/health
   client:
-    register-with-eureka: true
     service-url:
       defaultZone: http://${DISCOVERY_HOST}:${DISCOVERY_PORT:8001}/eureka/
-security:
-  token:
-    endpoint: http://uaa-service/api/user
-    header: X-Token
-management:
-  context-path: /
