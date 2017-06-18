@@ -4,4 +4,4 @@ spring:
     username: ${DATABASE_USER}
     password: ${DATABASE_PASSWORD}
     schema: classpath:schema-mysql.sql
-    data: classpath:data.sql
+    data: classpath:data-mysql.sql
