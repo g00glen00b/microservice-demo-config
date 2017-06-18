@@ -1,2 +1,3 @@
-server:
-  port: ${APP_PORT:8003}
+spring:
+  datasource:
+    url: jdbc:mysql://${DATABASE_HOST}:${DATABASE_PORT}/${DATABASE_NAME}

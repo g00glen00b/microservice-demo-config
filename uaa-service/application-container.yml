@@ -1,9 +1,3 @@
-security:
-  password:
-    strength: ${APP_STRENGTH:10}
-  token:
-    max-age-seconds: ${APP_MAX_AGE:604800} # 1 week
-    secret: ${APP_SECRET}
-server:
-  port: ${APP_PORT:8002}
-
+spring:
+  datasource:
+    url: jdbc:mysql://${DATABASE_HOST}:${DATABASE_PORT}/${DATABASE_NAME}
