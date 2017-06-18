@@ -1,9 +1,5 @@
 server:
   port: 8005
-eureka:
-  instance:
-    statusPageUrlPath: /info
-    healthCheckUrlPath: /health
 zuul:
   routes:
     uaa-service:

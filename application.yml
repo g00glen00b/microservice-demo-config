@@ -9,8 +9,8 @@ spring:
       indent_output: true
 eureka:
   instance:
-    statusPageUrlPath: \${server.context-path}/info
-    healthCheckUrlPath: \${server.context-path}/health
+    statusPageUrlPath: /info
+    healthCheckUrlPath: /health
   client:
     register-with-eureka: true
     service-url:
