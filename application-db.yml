@@ -1,0 +1,4 @@
+spring:
+  datasource:
+    schema: classpath:schema-hsqldb.sql
+    data: classpath:data-hsqldb.sql
