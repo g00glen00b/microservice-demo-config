@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    stream:
+      kafka:
+        binder:
+          zkNodes: localhost
+          brokers: localhost
