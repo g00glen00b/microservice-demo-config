@@ -1,6 +1,9 @@
 spring:
   cloud:
     stream:
+      default:
+        consumer:
+          headerMode: raw
       kafka:
         binder:
           zkNodes: localhost
