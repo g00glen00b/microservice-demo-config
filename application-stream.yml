@@ -8,3 +8,5 @@ spring:
         binder:
           zkNodes: localhost
           brokers: localhost
+          zkSessionTimeout: 20000
+          zkConnectionTimeout: 20000
