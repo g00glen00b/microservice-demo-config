@@ -9,3 +9,4 @@ spring:
         smtp:
           auth: true
           starttls.enable: true
+app.login.url: http://localhost:4200/login
