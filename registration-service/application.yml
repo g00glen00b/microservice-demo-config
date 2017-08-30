@@ -1,6 +1,7 @@
 server:
   port: 8006
 spring:
+  thymeleaf.mode: LEGACYHTML5
   mail:
     host: smtp.gmail.com
     port: 587
