@@ -21,3 +21,4 @@ security:
     header: X-Token
 management:
   context-path: /
+  security.enabled: false
