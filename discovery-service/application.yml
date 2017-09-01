@@ -1,6 +1,5 @@
 server:
   port: 8001
-spring.boot.admin.url: http://localhost:8007
 eureka:
   instance:
     hostname: localhost
