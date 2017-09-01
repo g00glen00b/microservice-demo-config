@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    stream:
+      kafka:
+        binder:
+          zkNodes: ${ZOOKEEPER_HOST}
+          brokers: ${KAFKA_HOST}
+          zkSessionTimeout: 20000
+          zkConnectionTimeout: 20000
