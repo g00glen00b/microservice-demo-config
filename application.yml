@@ -25,3 +25,6 @@ security:
 management:
   context-path: /
   security.enabled: false
+monitoring:
+  path: /prometheus
+  interval: 10
