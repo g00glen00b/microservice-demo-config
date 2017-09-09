@@ -7,6 +7,9 @@ spring:
     serialization:
       write-dates-as-timestamps: false
       indent_output: true
+  metrics:
+    servo:
+      enabled: false
 eureka:
   instance:
     statusPageUrlPath: /info
