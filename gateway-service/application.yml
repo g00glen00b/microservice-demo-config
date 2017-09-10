@@ -4,3 +4,23 @@ zuul:
   routes:
     uaa-service:
       sensitiveHeaders:
+monitoring:
+  matchers:
+    - name: get.proxy
+      method: GET
+      matcher: /*/**
+    - name: post.proxy
+      method: POST
+      matcher: /*/**
+    - name: put.proxy
+      method: PUT
+      matcher: /*/**
+    - name: delete.proxy
+      method: DELETE
+      matcher: /*/**
+    - name: prometheus
+      method: GET
+      matcher: /prometheus
+    - name: metrics
+      method: GET
+      matcher: /metrics
