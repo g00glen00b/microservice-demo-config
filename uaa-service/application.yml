@@ -6,4 +6,12 @@ security:
     secret: bkr5aI5AAtS5kbwN
 server:
   port: 8002
+monitoring:
+  matchers:
+    - name: api.user
+      method: GET
+      matcher: /api/user
+    - name: api.token
+      method: GET
+      matcher: /api/token
 
