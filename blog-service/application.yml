@@ -1,2 +1,25 @@
 server:
   port: 8003
+monitoring:
+  matchers:
+    - name: prometheus
+      method: GET
+      matcher: /prometheus
+    - name: metrics
+      method: GET
+      matcher: /metrics
+    - name: get.api.article
+      method: GET
+      matcher: /api/article
+    - name: post.api.article
+      method: POST
+      matcher: /api/article
+    - name: get.api.article.slug
+      method: GET
+      matcher: /api/article/*
+    - name: put.api.article.slug
+      method: PUT
+      matcher: /api/article/*
+    - name: delete.api.article.slug
+      method: DELETE
+      matcher: /api/article/*
