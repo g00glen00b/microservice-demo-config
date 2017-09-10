@@ -1,2 +1,28 @@
 server:
   port: 8004
+monitoring:
+  matchers:
+    - name: get.api.profile
+      method: GET
+      matcher: /api/profile
+    - name: get.api.profile.username
+      method: GET
+      matcher: /api/profile/*
+    - name: get.api.profile.me
+      method: GET
+      matcher: /api/profile/@me
+    - name: put.api.profile.me
+      method: PUT
+      matcher: /api/profile/@me
+    - name: put.api.profile.me.avatar
+      method: PUT
+      matcher: /api/profile/@me/avatar
+    - name: get.api.profile.me.avatar
+      method: GET
+      matcher: /api/profile/@me/avatar
+    - name: prometheus
+      method: GET
+      matcher: /prometheus
+    - name: metrics
+      method: GET
+      matcher: /metrics
