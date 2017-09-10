@@ -28,3 +28,6 @@ management:
 monitoring:
   path: /prometheus
   interval: 10
+logging:
+  level:
+    be.g00glen00b.monitor: DEBUG
