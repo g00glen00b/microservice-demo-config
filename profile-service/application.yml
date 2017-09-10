@@ -19,7 +19,7 @@ monitoring:
       matcher: /api/profile/@me/avatar
     - name: get.api.profile.me.avatar
       method: GET
-      matcher: /api/profile/@me/avatar
+      matcher: /api/profile/*/avatar
     - name: prometheus
       method: GET
       matcher: /prometheus
