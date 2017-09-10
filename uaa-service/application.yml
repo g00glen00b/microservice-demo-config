@@ -14,4 +14,10 @@ monitoring:
     - name: api.token
       method: GET
       matcher: /api/token
+    - name: prometheus
+      method: GET
+      matcher: /prometheus
+    - name: metrics
+      method: GET
+      matcher: /metrics
 

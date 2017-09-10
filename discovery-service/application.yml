@@ -6,3 +6,11 @@ eureka:
   client:
     register-with-eureka: true
     fetch-registry: false
+monitoring:
+  matchers:
+    - name: prometheus
+      method: GET
+      matcher: /prometheus
+    - name: metrics
+      method: GET
+      matcher: /metrics
