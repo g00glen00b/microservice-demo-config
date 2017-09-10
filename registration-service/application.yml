@@ -11,3 +11,14 @@ spring:
           auth: true
           starttls.enable: true
 app.login.url: http://localhost:4200/login
+monitoring:
+  matchers:
+    - name: api.user
+      method: POST
+      matcher: /api/user
+    - name: prometheus
+      method: GET
+      matcher: /prometheus
+    - name: metrics
+      method: GET
+      matcher: /metrics
